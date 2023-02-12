@@ -36,11 +36,6 @@ fn main() {
     );
 }
 
-//struct Spades{}
-//struct Clubs{}
-//struct Hearts{}
-//struct Diamonds{}
-
 #[derive(Clone, Debug)]
 struct Card {
     value: u8,
